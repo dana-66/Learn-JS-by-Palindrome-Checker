@@ -9,17 +9,15 @@
 </head>
 <body>
     <div class="container">
-        <h1>Is it a Palindrome?</h1>
+        <h1>Is it a Palindrome ?</h1>
 
         <div class="userInputContainer">
             <p>Enter in text to check for a palindrome:</p>
-            <form class="input-form" id="input-Form">
-                <label for="userInput-word"></label>
-                <input type="text" name="word" id="userInputTxt">
-
-                <button type="submit" id="submit-btn">Check</button>
+            <form id="input-Form" class="input-form">
+                <input type="text" id="text-input" placeholder="Enter text">
+                <button id="check-btn">Check</button>
             </form>
-            <div class="answer">
+            <div class="answer" id = "result">
                     <p>its palindrome </p>
                 </div>
         </div>
